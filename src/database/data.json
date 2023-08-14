@@ -1,0 +1,659 @@
+{
+  "maincategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "kids",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Female"
+    },
+    {
+      "id": 3,
+      "name": "Male"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Shirts",
+      "id": 1
+    },
+    {
+      "name": "Jeans",
+      "id": 2
+    },
+    {
+      "name": "Trouser",
+      "id": 3
+    },
+    {
+      "name": "T-shirts",
+      "id": 4
+    }
+  ],
+  "brand": [
+    {
+      "id": 0
+    },
+    {
+      "id": 2,
+      "name": "Richlook",
+      "pic": "Richlook.png"
+    },
+    {
+      "id": 3,
+      "name": "Puma",
+      "pic": "Puma.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Tommy Hilfigure",
+      "pic": "Tommyhilfigure.png"
+    },
+    {
+      "id": 5,
+      "name": "Nike",
+      "pic": "Nike.png"
+    },
+    {
+      "id": 6,
+      "name": "Denim",
+      "pic": "Denim.webp"
+    },
+    {
+      "id": 7,
+      "name": "HRX",
+      "pic": "HRX.jpg"
+    },
+    {
+      "id": 8,
+      "name": "US Polo",
+      "pic": "USPolo.png"
+    },
+    {
+      "id": 9,
+      "name": "Redtape",
+      "pic": "Redtape.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Shivam",
+      "username": "Shivam",
+      "email": "shivamjangra1911@gmail.com",
+      "phone": "8529706510",
+      "password": "Shivam@1234",
+      "role": "Buyer",
+      "id": 1,
+      "pin": "125002",
+      "city": "hisar",
+      "state": "Haryana",
+      "address": "Arya nagar",
+      "pic": "p10.jpg"
+    },
+    {
+      "name": "Shiva",
+      "username": "Shiva",
+      "email": "shivamjangra1911@gmail.com",
+      "phone": "8529706510",
+      "password": "Shiva@1234",
+      "role": "Admin",
+      "id": 2,
+      "pic": "p39.jpg"
+    }
+  ],
+  "product": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Slim fit jeans",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Tommy Hilfigure",
+      "color": "Blue",
+      "size": "30",
+      "baseprice": "5000",
+      "discount": "70",
+      "finalprice": 1500,
+      "stock": "In Stock",
+      "description": "Slim fit jeans",
+      "pic1": "p5.jpg",
+      "pic2": "p7.jpg",
+      "pic3": "p11.jpg",
+      "pic4": "p13.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Straight fit jeans",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Puma",
+      "color": "blue",
+      "size": "32",
+      "baseprice": "2500",
+      "discount": "20",
+      "finalprice": 2000,
+      "stock": "In Stock",
+      "description": "Straight fit jeans",
+      "pic1": "p7.jpg",
+      "pic2": "p13.jpg",
+      "pic3": "p11.jpg",
+      "pic4": "p12.jpg"
+    },
+    {
+      "name": "t-shirt",
+      "maincategory": "Male",
+      "subcategory": "T-shirts",
+      "brand": "HRX",
+      "color": "White",
+      "size": "M",
+      "baseprice": "1000",
+      "discount": "20",
+      "finalprice": 800,
+      "stock": "In Stock",
+      "description": "t-shirt",
+      "pic1": "p15.jpg",
+      "pic2": "p21.jpg",
+      "pic3": "p24.jpg",
+      "pic4": "p29.jpg",
+      "id": 3
+    },
+    {
+      "name": "Shirt",
+      "maincategory": "Male",
+      "subcategory": "Shirts",
+      "brand": "Tommy Hilfigure",
+      "color": "light blue",
+      "size": "L",
+      "baseprice": "2990",
+      "discount": "29",
+      "finalprice": 2123,
+      "stock": "In Stock",
+      "description": "Shirt",
+      "pic1": "p2.jpg",
+      "pic2": "p1.jpg",
+      "pic3": "p35.jpg",
+      "pic4": "p50.jpg",
+      "id": 4
+    },
+    {
+      "name": "men t-Shirts",
+      "maincategory": "Male",
+      "subcategory": "T-shirts",
+      "brand": "Puma",
+      "color": "black",
+      "size": "32",
+      "baseprice": "2809",
+      "discount": "48",
+      "finalprice": 1461,
+      "stock": "In Stock",
+      "description": "men t-Shirts",
+      "pic1": "p3.jpg",
+      "pic2": "p51.jpg",
+      "pic3": "p52.jpg",
+      "pic4": "p54.jpg",
+      "id": 5
+    },
+    {
+      "name": "Girls skin fit jeans",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Denim",
+      "color": "light blue",
+      "size": "28",
+      "baseprice": "3500",
+      "discount": "40",
+      "finalprice": 2100,
+      "stock": "In Stock",
+      "description": "Girls skin fit jeans",
+      "pic1": "p9.jpg",
+      "pic2": "p32.jpg",
+      "pic3": "p53.jpg",
+      "pic4": "p55.jpg",
+      "id": 6
+    },
+    {
+      "name": "T-shirts",
+      "maincategory": "Female",
+      "subcategory": "T-shirts",
+      "brand": "Nike",
+      "color": "white",
+      "size": "s",
+      "baseprice": "875",
+      "discount": "32",
+      "finalprice": 595,
+      "stock": "In Stock",
+      "description": "T-shirts",
+      "pic1": "p22.jpg",
+      "pic2": "p23.jpg",
+      "pic3": "p6.jpg",
+      "pic4": "p19.jpg",
+      "id": 7
+    },
+    {
+      "name": "T-Shirts",
+      "maincategory": "Female",
+      "subcategory": "T-shirts",
+      "brand": "Redtape",
+      "color": "black",
+      "size": "M",
+      "baseprice": "533",
+      "discount": "9",
+      "finalprice": 485,
+      "stock": "In Stock",
+      "description": "T-Shirts",
+      "pic1": "p3.jpg",
+      "pic2": "p42.jpg",
+      "pic3": "p51.jpg",
+      "pic4": "p52.jpg",
+      "id": 8
+    },
+    {
+      "name": "Jeans",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Nike",
+      "color": "Blue",
+      "size": "26",
+      "baseprice": "7500",
+      "discount": "38",
+      "finalprice": 4650,
+      "stock": "In Stock",
+      "description": "Jeans",
+      "pic1": "p27.jpg",
+      "pic2": "p33.jpg",
+      "pic3": "p20.jpg",
+      "pic4": "p47.jpg",
+      "id": 9
+    },
+    {
+      "name": "Shirts",
+      "maincategory": "Female",
+      "subcategory": "Shirts",
+      "brand": "Redtape",
+      "color": "cream",
+      "size": "M",
+      "baseprice": "3800",
+      "discount": "69",
+      "finalprice": 1178,
+      "stock": "In Stock",
+      "description": "Shirts",
+      "pic1": "p25.jpg",
+      "pic2": "p26.jpg",
+      "pic3": "p34.jpg",
+      "pic4": "p27.jpg",
+      "id": 10
+    },
+    {
+      "name": "Black T-shirts",
+      "maincategory": "kids",
+      "subcategory": "T-shirts",
+      "brand": "US Polo",
+      "color": "Black",
+      "size": "XS",
+      "baseprice": "1200",
+      "discount": "38",
+      "finalprice": 744,
+      "stock": "In Stock",
+      "description": "Black T-shirts",
+      "pic1": "p64.jpg",
+      "pic2": "p65.jpg",
+      "pic3": "p67.jpg",
+      "pic4": "p66.jpg",
+      "id": 11
+    },
+    {
+      "name": "Shirt",
+      "maincategory": "kids",
+      "subcategory": "Shirts",
+      "brand": "Denim",
+      "color": "light blue",
+      "size": "20",
+      "baseprice": "3400",
+      "discount": "30",
+      "finalprice": 2380,
+      "stock": "In Stock",
+      "description": "Shirt",
+      "pic1": "p61.jpg",
+      "pic2": "p60.jpg",
+      "pic3": "p59.jpg",
+      "pic4": "p58.jpg",
+      "id": 12
+    },
+    {
+      "name": "Jeans",
+      "maincategory": "kids",
+      "subcategory": "Jeans",
+      "brand": "Nike",
+      "color": "light blue",
+      "size": "18",
+      "baseprice": "2200",
+      "discount": "40",
+      "finalprice": 1320,
+      "stock": "In Stock",
+      "description": "Jeans",
+      "pic1": "p64.jpg",
+      "pic2": "p57.jpg",
+      "pic3": "p56.jpg",
+      "pic4": "p66.jpg",
+      "id": 13
+    },
+    {
+      "name": "jeans slim fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Nike",
+      "color": "blue",
+      "size": "32",
+      "baseprice": "3000",
+      "discount": "19",
+      "finalprice": 2430,
+      "stock": "In Stock",
+      "description": "jeans slim fit",
+      "pic1": "p47.jpg",
+      "pic2": "p5.jpg",
+      "pic3": "p16.jpg",
+      "pic4": "p11.jpg",
+      "id": 14
+    },
+    {
+      "name": "Jeans straightfit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Nike",
+      "color": "light blue",
+      "size": "30",
+      "baseprice": "4500",
+      "discount": "74",
+      "finalprice": 1170,
+      "stock": "In Stock",
+      "description": "Jeans straightfit",
+      "pic1": "p13.jpg",
+      "pic2": "p7.jpg",
+      "pic3": "p6.jpg",
+      "pic4": "p11.jpg",
+      "id": 15
+    },
+    {
+      "name": "Skin Fit Jeans",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Nike",
+      "color": "black",
+      "size": "36",
+      "baseprice": "5098",
+      "discount": "53",
+      "finalprice": 2396,
+      "stock": "In Stock",
+      "description": "Skin Fit Jeans",
+      "pic1": "p12.jpg",
+      "pic2": "p20.jpg",
+      "pic3": "p47.jpg",
+      "pic4": "p53.jpg",
+      "id": 16
+    },
+    {
+      "name": "Jeans Male",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Nike",
+      "color": "Blue",
+      "size": "34",
+      "baseprice": "3499",
+      "discount": "50",
+      "finalprice": 1750,
+      "stock": "In Stock",
+      "description": "Jeans Male",
+      "pic1": "p11.jpg",
+      "pic2": "p5.jpg",
+      "pic3": "p2.jpg",
+      "pic4": "p16.jpg",
+      "id": 17
+    }
+  ],
+  "cart": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "2",
+      "productid": 15,
+      "name": "Jeans straightfit",
+      "brand": "Nike",
+      "color": "light blue",
+      "size": "30",
+      "price": 1170,
+      "pic": "p13.jpg",
+      "qty": "10",
+      "total": 11700,
+      "id": 1
+    },
+    {
+      "userid": "2",
+      "productid": 17,
+      "name": "Jeans Male",
+      "brand": "Nike",
+      "color": "Blue",
+      "size": "34",
+      "price": 1750,
+      "pic": "p11.jpg",
+      "qty": 10,
+      "total": 17500,
+      "id": 2
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "1",
+      "productid": 4,
+      "name": "Shirt",
+      "brand": "Tommy Hilfigure",
+      "color": "light blue",
+      "size": "L",
+      "price": 2123,
+      "pic": "p2.jpg",
+      "id": 1
+    }
+  ],
+  "checkout": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "1",
+      "paymentmode": "COD",
+      "paymentstatus": "Done",
+      "orderstatus": "Delivered",
+      "subtotal": 13597,
+      "shipping": 0,
+      "total": 13597,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 15,
+          "name": "Jeans straightfit",
+          "brand": "Nike",
+          "color": "light blue",
+          "size": "30",
+          "price": 1170,
+          "pic": "p13.jpg",
+          "qty": 6,
+          "total": 7020,
+          "id": 3
+        },
+        {
+          "userid": "1",
+          "productid": 7,
+          "name": "T-shirts",
+          "brand": "Nike",
+          "color": "white",
+          "size": "s",
+          "price": 595,
+          "pic": "p22.jpg",
+          "qty": 3,
+          "total": 1785,
+          "id": 4
+        },
+        {
+          "userid": "1",
+          "productid": 16,
+          "name": "Skin Fit Jeans",
+          "brand": "Nike",
+          "color": "black",
+          "size": "36",
+          "price": 2396,
+          "pic": "p12.jpg",
+          "qty": 2,
+          "total": 4792,
+          "id": 5
+        }
+      ],
+      "date": "7/21/2023",
+      "id": 1
+    },
+    {
+      "userid": "1",
+      "paymentmode": "COD",
+      "paymentstatus": "Done",
+      "orderstatus": "Delivered",
+      "subtotal": 1320,
+      "shipping": 0,
+      "total": 1320,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 13,
+          "name": "Jeans",
+          "brand": "Nike",
+          "color": "light blue",
+          "size": "18",
+          "price": 1320,
+          "pic": "p64.jpg",
+          "qty": 1,
+          "total": 1320,
+          "id": 3
+        }
+      ],
+      "date": "7/21/2023",
+      "id": 2
+    },
+    {
+      "userid": "1",
+      "paymentmode": "COD",
+      "paymentstatus": "Pending",
+      "orderstatus": "Order is Placed",
+      "subtotal": 5250,
+      "shipping": 0,
+      "total": 5250,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 17,
+          "name": "Jeans Male",
+          "brand": "Nike",
+          "color": "Blue",
+          "size": "34",
+          "price": 1750,
+          "pic": "p11.jpg",
+          "qty": 3,
+          "total": 5250,
+          "id": 3
+        }
+      ],
+      "date": "7/21/2023",
+      "id": 3
+    },
+    {
+      "userid": "1",
+      "paymentmode": "COD",
+      "paymentstatus": "Pending",
+      "orderstatus": "Order is Placed",
+      "subtotal": 2380,
+      "shipping": 0,
+      "total": 2380,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 12,
+          "name": "Shirt",
+          "brand": "Denim",
+          "color": "light blue",
+          "size": "20",
+          "price": 2380,
+          "pic": "p61.jpg",
+          "qty": 1,
+          "total": 2380,
+          "id": 3
+        }
+      ],
+      "date": "7/22/2023",
+      "id": 4
+    }
+  ],
+  "newslatter": [
+    {
+      "id": 0
+    },
+    {
+      "email": "shivamjangra1911@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "shivamjangra191@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "kakkarabhee@gmail.com",
+      "id": 3
+    }
+  ],
+  "contact": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Shivani",
+      "email": "ShivaniMishra@gmail.com",
+      "phone": "8801001222",
+      "subject": "This is a sample message ",
+      "message": "This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message ",
+      "status": "Done",
+      "date": "7/22/2023",
+      "id": 3
+    },
+    {
+      "name": "Shivam",
+      "email": "shivamjangra@gmail.com",
+      "phone": "8529706510",
+      "subject": "This is a sample message ",
+      "message": "This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message ",
+      "status": "Done",
+      "date": "7/22/2023",
+      "id": 4
+    },
+    {
+      "name": "Abhishek",
+      "email": "kakkarabhee@gmail.com",
+      "phone": "9929991959",
+      "subject": "This is a sample message ",
+      "message": "This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message This is a sample message ",
+      "status": "Done",
+      "date": "7/22/2023",
+      "id": 5
+    }
+  ]
+}
